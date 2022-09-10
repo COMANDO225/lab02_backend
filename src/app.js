@@ -1,9 +1,9 @@
 import Express from 'express'
 import cors from 'cors'
-import db from './database/db'
+import db from './database/db.js'
 import dotenv from 'dotenv'
-import agendaRutas from './routes/agendaRoutes'
-import userRutas from './routes/userRoutes'
+import agendaRutas from './routes/agendaRoutes.js'
+import userRutas from './routes/userRoutes.js'
 // import UserModel from './models/UserModel'
 
 // Empieza lo elegante

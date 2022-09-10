@@ -1,7 +1,7 @@
 import Express from "express";
-import { refreshToken } from "../controllers/RefreshToken";
-import { getUsers, loginUser, logoutUser, registerUser } from "../controllers/userController";
-import { verificarToken } from "../middleware/VerificarToken";
+import { refreshToken } from "../controllers/RefreshToken.js";
+import { getUsers, loginUser, logoutUser, registerUser } from "../controllers/UserController.js";
+import { verificarToken } from "../middleware/VerificarToken.js";
 
 
 const router = Express.Router();

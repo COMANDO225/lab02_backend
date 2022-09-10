@@ -1,5 +1,5 @@
 // Importando el modelo de Agenda
-import AgendaModel from "../models/AgendaModel"
+import AgendaModel from "../models/AgendaModel.js";
 
 /*----------  METODOS CRUD MASNA  ----------*/
 

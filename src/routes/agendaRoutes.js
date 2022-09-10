@@ -1,5 +1,5 @@
-import Express from 'express'
-import { createContacto, deleteContacto, getContacto, getContactos, updateContacto } from '../controllers/AgendaController';
+import Express from 'express';
+import { createContacto, deleteContacto, getContacto, getContactos, updateContacto } from '../controllers/AgendaController.js';
 
 const router = Express.Router();
 
