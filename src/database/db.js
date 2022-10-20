@@ -8,7 +8,8 @@ import { Sequelize } from "sequelize";
 //     }
 // });
 const db = new Sequelize("jbta7idru2ruo55m", "vtduv5wmn83dy4gi", "keadazn3ftowq5ms", {
-    host: "migae5o25m2psr4q.cbetxkdyhwsb.us-east-1.rds.amazonaws.com",
+    // host: "migae5o25m2psr4q.cbetxkdyhwsb.us-east-1.rds.amazonaws.com",
+    host: 'https://lab02-express-jwt-rest.herokuapp.com/',
     dialect: "mysql",
     define:{
         freezeTableName: true,
